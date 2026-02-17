@@ -23,8 +23,8 @@
     h1, h2 {
       color: #0A4C9A;
     }
-    p {
-      margin-bottom: 15px;
+    p, li {
+      margin-bottom: 12px;
     }
     footer {
       margin-top: 30px;
@@ -40,14 +40,19 @@
 
     <h2>About LeadHive</h2>
     <p>
-      LeadHive – Google Maps Lead Extractor is a Chrome extension designed to help users
-      extract publicly available business information from Google Maps search results.
+      LeadHive is a browser extension that allows users to manually save information
+      visible on webpages they choose to open. The extension functions only after
+      the user clicks the extension button.
+    </p>
+    <p>
+      LeadHive is an independent productivity tool and is not affiliated with,
+      endorsed by, or connected to any website or service.
     </p>
 
-    <h2>Data Collection</h2>
+    <h2>Information Accessed</h2>
     <p>
-      LeadHive does not collect, store, sell, or transmit any personal user data.
-      The extension only processes publicly visible business information such as:
+      The extension processes only information that is visible on the currently open webpage
+      and explicitly saved by the user. This may include publicly visible business contact details such as:
     </p>
     <ul>
       <li>Business name</li>
@@ -55,30 +60,43 @@
       <li>Phone number</li>
       <li>Website URL</li>
     </ul>
+    <p>No hidden data is accessed and no background monitoring occurs.</p>
+
+    <h2>Data Storage</h2>
+    <p>
+      All saved information is stored locally within the user’s browser using browser storage.
+      The data never leaves the user’s device unless the user exports it manually.
+    </p>
 
     <h2>Data Usage</h2>
     <p>
-      All data processing happens locally within the user’s browser and only when
-      explicitly initiated by the user. The extracted data is used solely to generate
-      a downloadable CSV file for the user.
+      Stored information is used only so the user can review and export saved records
+      for personal organization purposes.
     </p>
+    <p>LeadHive does not track users, collect analytics, or profile behavior.</p>
 
     <h2>Data Sharing</h2>
     <p>
-      LeadHive does not share any data with third parties. No data is sent to external
-      servers or services.
+      LeadHive does not sell, transfer, or share any data with third parties.
+      No data is transmitted to external servers.
     </p>
 
     <h2>Data Retention</h2>
     <p>
-      LeadHive does not retain user data. Any extracted information exists only temporarily
-      during the active session and is removed when the browser session ends.
+      All saved data remains under the user’s control and can be deleted at any time
+      by clearing extension storage or removing the extension.
     </p>
+
+    <h2>Permissions Usage</h2>
+    <ul>
+      <li><strong>activeTab</strong> – used only after user interaction to read visible page content</li>
+      <li><strong>storage</strong> – used to store saved records locally</li>
+      <li><strong>scripting</strong> – used to access page content after user activation</li>
+    </ul>
 
     <h2>Contact</h2>
     <p>
-      If you have any questions about this Privacy Policy, you can contact us at:
-      <br>
+      For questions regarding this Privacy Policy:<br>
       <strong>Email:</strong> support@leadhive.app
     </p>
 
@@ -88,3 +106,4 @@
   </div>
 </body>
 </html>
+
